@@ -1,0 +1,20 @@
+{
+  "name": "iso-next-tick",
+  "version": "1.0.0",
+  "description": "a minimal, isomorphic process.nextTick implementation",
+  "main": "index.js",
+  "browser": "browser.js",
+  "devDependencies": {
+    "tape": "~3.5.0"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "keywords": ["nextTick", "next-tick"],
+  "repository": {
+    "url": "git@github.com:michaelrhodes/iso-next-tick.git",
+    "type": "git"
+  },
+  "author": "Michael Rhodes <spam@michaelrhod.es>",
+  "license": "MIT"
+}
